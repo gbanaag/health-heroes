@@ -20,12 +20,17 @@ canvas {
       <center>
         <div id="menu-links">
           <a href="index.html" class="links"><h3> Home </h3></a>
-          <a href="about.html" class="links"><h3> COVID-19 </h3></a>
+          <!-- <a href="about.html" class="links"><h3> COVID-19 </h3></a> -->
           <a href="play.html" class="links"><h3> Play </h3></a>
           <a href="community.html" class="links"><h3> Be a Hero </h3></a>
-          <a href="about.html" class="links"><h3> About </h3></a>
+          <!-- <a href="about.html" class="links"><h3> About </h3></a> -->
         </div>
       </center>
+
+      <!-- <div id="info">
+        <h1 class="text" id="play"> Play Health Heroes! </h1>
+        <p class="text description"> idjoijsjfoi </p>
+      </div> -->
 
       <div id="choices">
         <div id="question">
@@ -47,6 +52,62 @@ canvas {
       </div>
 
   <br>
+
+  <div id="popup">
+    <div class="text-div">
+      <h3 id="level"> Level 1 - Shelter in Place</h3>
+      <p id="levelinfo"> Instructions: Use WASD keys to control your character.
+        Click on decisions to make them! <br> <br> You're stuck at home due to shelter in place orders. Find something to do! </p>
+      <button class="button" id="ok" onclick="hidePopUp()"> Ok </button>
+    </div>
+  </div>
+
+  <div id="attack-message">
+    <div class="text-div">
+      <h3 id="attack-status"> Incoming Attack! </h3>
+      <p id="opponent"> Attack the Toilet Paper Hoarder! </p>
+        <button id="attack" class="button" onclick="attackOne()"> Attack </button>
+      </div>
+  </div>
+
+  <!-- toilet paper boss -->
+    <img class="object" id="toilet" src="https://lh3.googleusercontent.com/proxy/drgccM9WBsyRRQPV1moKs_4PFmbNWV4RYablV5f0qpXsBIQ2p4yv_1PmsAzFlwsBcqkXiS91oDnxeTQzvLSi9v7Rbe4N6Vkm">
+    <img class="object" id="toiletpaper" src="images/person.png">
+    <img class="object" id="sign" src="images/person.png">
+
+    <img class="object" id="toilet2" src="https://lh3.googleusercontent.com/proxy/drgccM9WBsyRRQPV1moKs_4PFmbNWV4RYablV5f0qpXsBIQ2p4yv_1PmsAzFlwsBcqkXiS91oDnxeTQzvLSi9v7Rbe4N6Vkm">
+    <img class="object" id="toiletpaper2" src="images/person.png">
+    <img class="object" id="sign2" src="images/person.png">
+
+    <img class="object" id="toilet3" src="https://lh3.googleusercontent.com/proxy/drgccM9WBsyRRQPV1moKs_4PFmbNWV4RYablV5f0qpXsBIQ2p4yv_1PmsAzFlwsBcqkXiS91oDnxeTQzvLSi9v7Rbe4N6Vkm">
+    <img class="object" id="toiletpaper3" src="images/person.png">
+    <img class="object" id="sign3" src="images/person.png">
+
+    <img class="object" id="toilet4" src="https://lh3.googleusercontent.com/proxy/drgccM9WBsyRRQPV1moKs_4PFmbNWV4RYablV5f0qpXsBIQ2p4yv_1PmsAzFlwsBcqkXiS91oDnxeTQzvLSi9v7Rbe4N6Vkm">
+
+    <!-- racist -->
+      <img class="object" id="stopsign" src="images/person.png">
+      <img class="object" id="no" src="images/person.png">
+      <img class="object" id="angry" src="images/person.png">
+      <img class="object" id="thumbsdown" src="images/person.png">
+
+      <img class="object" id="stopsign2" src="images/person.png">
+      <img class="object" id="no2" src="images/person.png">
+      <img class="object" id="angry2" src="images/person.png">
+      <img class="object" id="thumbsdown2" src="images/person.png">
+
+      <img class="object" id="stopsign3" src="images/person.png">
+      <img class="object" id="no3" src="images/person.png">
+      <img class="object" id="angry3" src="images/person.png">
+      <img class="object" id="thumbsdown3" src="images/person.png">
+
+      <img class="object" id="stopsign4" src="images/person.png">
+      <img class="object" id="no4" src="images/person.png">
+      <img class="object" id="angry4" src="images/person.png">
+
+
+
+
 
   <!-- <img src="images/person.PNG" id="player"> -->
 

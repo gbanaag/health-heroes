@@ -97,6 +97,7 @@ canvas {
   margin-left: 40px;
   margin-top: 40px;
   width: 650px;
+  border-radius: 20px;
 }
 
 #answer {
@@ -128,7 +129,7 @@ p {
 }
 
 .button {
-  background-color: #f7f568;
+  background-color: black;
   border: none;
   color: white;
   padding: 10px 5px;
@@ -142,13 +143,64 @@ p {
   cursor: pointer;
   font-family: 'silkscreennormal';
   margin-left: 40px;
+  outline: none;
 }
 
-#button:hover {
-    background-color: #ff69e8;
+.button:hover {
+    background-color: gray;
 }
 
 li {
   font-family: 'silkscreennormal';
   margin-top: 15px;
 }
+
+#popup {
+    position: absolute;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 15%;
+    /* margin-bottom: 30%; */
+    border-radius: 10px;
+    width: 600px;
+    box-shadow: 10px 10px grey;
+}
+
+.text-div {
+  margin: 20px;
+}
+
+#level {
+  margin: 0;
+}
+
+#ok {
+  margin: 0;
+}
+
+.object {
+  position: absolute;
+  display: none;
+  width: 70px;
+  margin-top: 450px;
+}
+
+#attack-message {
+  display: none;
+  background-color: white;
+  box-shadow: 10px 10px grey;
+  border-radius: 10px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
+  position: absolute;
+
+}
+
+/* #info {
+  margin-top: 1000px;
+} */
