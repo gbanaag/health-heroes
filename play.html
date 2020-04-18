@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Work+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,700,900&display=swap" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="./style.css">
+<style>
+canvas {
+    border:1px solid #d3d3d3;
+    background-color: #f1f1f1;
+}
+</style>
+</head>
+<body onload="startGame()">
+
+      <center>
+        <div id="menu-links">
+          <a href="index.html" class="links"><h3> Home </h3></a>
+          <a href="about.html" class="links"><h3> COVID-19 </h3></a>
+          <a href="play.html" class="links"><h3> Play </h3></a>
+          <a href="community.html" class="links"><h3> Be a Hero </h3></a>
+          <a href="about.html" class="links"><h3> About </h3></a>
+        </div>
+      </center>
+
+      <div id="choices">
+        <div id="question">
+            <h3 id="description">   </h3>
+            <div class="option-div">
+              <input type="radio"  name="choices" class="choices" value="choice1">
+              <label for="choice1" id="choice1">    </label>
+            </div>
+
+            <div class="option-div">
+              <input type="radio" name="choices" class="choices" value="choice2">
+              <label for="choice2" id="choice2">    </label>
+            </div>
+
+            <button class="button" id="button" onclick="revealAnswer()"> Done </button>
+          </div>
+
+          <p id="answer"> blah blah blah </p>
+      </div>
+
+  <br>
+
+  <!-- <img src="images/person.PNG" id="player"> -->
+
+    <script src=test.js>  </script>
+</body>
+</html>
